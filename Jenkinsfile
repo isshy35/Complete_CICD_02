@@ -4,8 +4,8 @@ pipeline {
 		nodejs 'NodeJS'
 	}
 	environment {
-		SONAR_PROJECT_KEY = 'complete-cicd-02'
-		SONAR_SCANNER_HOME = tool 'SonarQubeScanner'
+		SONAR_PROJECT_KEY = 'complete_cicd02'
+		SONAR_SCANNER_HOME = tool 'sonarQubescanner'
 		JOB_NAME_NOW = 'cicd02'
 		ECR_REPO = 'iquantawsrepo'
 		IMAGE_TAG = 'latest'
