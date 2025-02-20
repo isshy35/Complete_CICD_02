@@ -5,7 +5,7 @@ pipeline {
 	}
 	environment {
 		SONAR_PROJECT_KEY = 'complete_cicd02'
-		SONAR_SCANNER_HOME = tool 'sonarQubescanner'
+		SONAR_SCANNER_HOME = tool 'SonarQubeScanner'
 		JOB_NAME_NOW = 'cicd02'
 		ECR_REPO = 'iquantawsrepo'
 		IMAGE_TAG = 'latest'
